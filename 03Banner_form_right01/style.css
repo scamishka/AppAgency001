@@ -1,0 +1,163 @@
+section.buy-order{
+    background: url(https://abcdef.tmweb.ru/AppAgency001/03Banner_form_right01/bay-bg.jpg);
+    position: relative;
+    background-size: cover;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #373a3c;
+}
+section.buy-order ul {
+    list-style: none;
+    padding: 0;
+    width: 380px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+section.buy-order .buy-order__catalog-btn {
+    font-size: 20px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block!important;
+    width: 320px;
+}
+section.buy-order .woman_bg {
+    width: 256px;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    margin-top: 25px;
+    z-index: 100;
+    right: 0;
+}
+
+
+section.buy-order .buy-order__else-text {
+    width: 377px;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+section.buy-order ul>li:before {
+    content: "";
+    display: inline-block;
+    margin-right: 15px;
+    height: 8px;
+    margin-bottom: 5px;
+    width: 8px;
+    transform: rotate(45deg);
+    background: #e40025;
+}
+section.buy-order .bg-filter {
+    background: rgb(250, 250, 250);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+}
+section.buy-order h1{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 25px;
+    border: none;
+}
+section.buy-order .buy-order__text-block {
+    font-size: 20px;
+}
+section.buy-order .featured-box {
+    background: #F5F5F5;
+    background: -webkit-linear-gradient( top , #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;
+    background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #ECECEC;
+    border-radius: 8px;
+    border-right: 1px solid #ECECEC;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    position: relative;
+    z-index: 1;
+}
+section.buy-order .featured-box .box-content {
+    border-radius: 8px;
+    border-top: 1px solid #CCC;
+    border-top-width: 4px;
+    padding: 30px 30px 10px 30px;
+    position: relative;
+    top: -1px;
+}
+section.buy-order .featured-box-primary .box-content {
+    border-top-color: #0088cc;
+}
+
+section.buy-order .featured-box h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+section.buy-order .featured-box .box-content label{
+    color: #777;
+}
+section.buy-order p {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+section.buy-order .slider-contact-form .featured-box {
+    text-align: left;
+}
+section.buy-order {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+section.buy-order input.btn.btn-primary {
+    float: right;
+    margin-top: 25px;
+}
+section.buy-order .bgc-prm {
+    background-color: #3882CD !important;
+}
+section.buy-order .bgc-sec-hov:hover {
+    background-color: #265688 !important;
+}
+section.buy-order .fc-white {
+    color: #fff !important;
+}
+@media (max-width:1200px) {
+    section.buy-order .woman_bg {
+        right: -59px;
+    }
+}
+@media (max-width: 980px){
+    section.buy-order .woman_bg {
+        right: 24px;
+        top: -17px;
+        z-index: 1;
+    }
+}
+@media (max-width: 768px){
+    section.buy-order .woman_bg {
+        display: none;
+    }
+}
+section.buy-order h2{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 25px;
+}
+ul.sale-order__list_dark-bg {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+

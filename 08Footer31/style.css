@@ -1,0 +1,148 @@
+
+
+#contacts31 {
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #373a3c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.24);
+}
+#contacts31 a {
+    color: #3882CD;
+    text-decoration: none;
+}
+#contacts31 ul {
+    list-style: none;
+    padding: 0;
+    width: 380px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+#contacts31 .buy-order__catalog-btn {
+    font-size: 20px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block!important;
+    width: 320px;
+}
+
+#contacts31 .buy-order__else-text {
+    width: 377px;
+    /*font-style: italic;*/
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#contacts31 ul>li:before {
+    content: "\2192";
+    /*font-family: icomoon;*/
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 12px;
+    margin-left: -39px;
+    margin-right: 20px;
+    color: #3882CD;
+}
+
+#contacts31 .buy-order__text-block {
+    font-size: 20px;
+}
+#contacts31 .featured-box {
+    /*background: #F5F5F5;*/
+    /*background: -webkit-linear-gradient( top , #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;*/
+    /*background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border-bottom: 1px solid #DFDFDF;*/
+    /*border-left: 1px solid #ECECEC;*/
+    border-radius: 8px;
+    /*border-right: 1px solid #ECECEC;*/
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    max-height: 200px;
+    position: relative;
+    z-index: 1;
+}
+#contacts31 .featured-box .box-content {
+    /*border-radius: 8px;*/
+    /*border-top: 1px solid #CCC;*/
+    /*border-top-width: 4px;*/
+    /*padding: 30px 30px 10px 30px;*/
+    position: relative;
+    top: -1px;
+}
+#contacts31 .featured-box-primary .box-content {
+    border-top-color: #3882CD;
+}
+
+#contacts31 .featured-box h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#contacts31 .featured-box .box-content label{
+    color: #777;
+}
+#contacts31 p {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+#contacts31 .slider-contact-form .featured-box {
+    text-align: left;
+}
+
+#contacts31 input.btn.btn-primary {
+    float: right;
+    margin-top: 25px;
+}
+#contacts31 .bgc-prm {
+    background-color: #3882CD !important;
+}
+#contacts31 .bgc-sec-hov:hover {
+    background-color: #3882CD !important;
+}
+#contacts31 .fc-white {
+    color: #fff !important;
+}
+@media (max-width:1200px) {
+    #contacts31 .woman_bg {
+        right: -59px;
+    }
+}
+@media (max-width: 980px){
+    #contacts31 .woman_bg {
+        right: 24px;
+        top: -17px;
+        z-index: 1;
+    }
+}
+@media (max-width: 768px){
+    #contacts31 .woman_bg {
+        display: none;
+    }
+}
+#contacts31 h2{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+#contacts31 ul.sale-order__list_dark-bg {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#contacts31 .crm-webform-label {
+    display:none;
+}

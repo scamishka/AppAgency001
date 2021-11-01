@@ -1,0 +1,107 @@
+section.exclusive-list{
+    padding: 50px 0;
+    background: #e6f0f2;
+}
+section.exclusive-list h2 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 25px;
+}
+section.exclusive-list.block-view .realty_list_item {
+    width: 100%;
+    float: none;
+    margin-right:0;
+}
+
+section.exclusive-list.block-view .realty_list_item {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    float: none;
+    margin-right: 0;
+    background: #fff;
+}
+section.exclusive-list.block-view .img-thumbnail {
+    padding:0;
+    border: none;
+}
+section.exclusive-list .title {
+    margin: 10px 16px;
+    height: 43px !important;
+}
+
+
+section.exclusive-list .owl-nav {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -55px;
+    width: 100%;
+}
+section.exclusive-list .owl-prev {
+    position: absolute;
+    left: -40px;
+}
+section.exclusive-list .owl-next {
+    right: -40px;
+    position: absolute;
+}
+section.exclusive-list .owl-next, section.exclusive-list .owl-prev {
+    color: #fff;
+    float: left;
+    font-size:65px;
+}
+section.exclusive-list .owl-next:hover, section.exclusive-list .owl-prev:hover {
+    font-size: 70px;
+    top: -2px;
+}
+
+section.exclusive-list .owl-next.disabled, section.exclusive-list .owl-prev.disabled {
+    color: #999 !important;
+}
+section.exclusive-list .owl-prev {
+    margin-right: 10px;
+}
+section.exclusive-listimg {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+}
+section.exclusive-list ul li {
+    list-style: none;
+}
+section.exclusive-list ul li .price {
+    position: absolute;
+    z-index: 500;
+    background: #444;
+    color: #fff;
+    padding: 2px 14px;
+    top: 5px;
+    right: 5px;
+    opacity: 0.9;
+    font-size: 19px;
+}
+section.exclusive-list .img-thumbnail {
+    width: 100%;
+}
+section.exclusive-list .exclusive-list ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+section.exclusive-list .bgc-prm {
+    background-color: #3882CD !important;
+}
+section.exclusive-list .main-slider__more-btn {
+    float: right;
+    margin-top: 15px;
+}
+section.exclusive-list .main-slider__h2 {
+    display: inline-block;
+}
+
+section.exclusive-list h2 {
+
+    margin-bottom: 20px;
+}
+section.exclusive-list .bgc-prm {
+    background-color: #3882CD !important;
+}

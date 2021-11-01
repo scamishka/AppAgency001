@@ -1,0 +1,103 @@
+section.last-realty-list{
+    padding: 50px 0;
+    background: #fafafa;
+}
+section.last-realty-list h2 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+section.last-realty-list.block-view .realty_list_item {
+    width: 100%;
+    float: none;
+    margin-right:0;
+}
+
+section.last-realty-list.block-view .realty_list_item {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    float: none;
+    margin-right: 0;
+    background: #fff;
+}
+section.last-realty-list.block-view .img-thumbnail {
+    padding:0;
+    border: none;
+}
+section.last-realty-list .title {
+    margin: 10px 16px;
+    height: 43px !important;
+}
+
+
+section.last-realty-list .owl-nav {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -55px;
+    width: 100%;
+}
+section.last-realty-list .owl-prev {
+    position: absolute;
+    left: -40px;
+}
+section.last-realty-list .owl-next {
+    right: -40px;
+    position: absolute;
+}
+section.last-realty-list .owl-next, section.last-realty-list .owl-prev {
+    color: #fff;
+    float: left;
+    font-size:65px;
+}
+section.last-realty-list .owl-next:hover, section.last-realty-list .owl-prev:hover {
+    font-size: 70px;
+    top: -2px;
+}
+
+section.last-realty-list .owl-next.disabled, section.last-realty-list .owl-prev.disabled {
+    color: #999 !important;
+}
+section.last-realty-list .owl-prev {
+    margin-right: 10px;
+}
+section.last-realty-list img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+}
+section.last-realty-list ul li {
+    list-style: none;
+}
+section.last-realty-list ul li .price {
+    position: absolute;
+    z-index: 500;
+    background: #444;
+    color: #fff;
+    padding: 2px 14px;
+    top: 5px;
+    right: 5px;
+    opacity: 0.9;
+    font-size: 19px;
+}
+section.last-realty-list .img-thumbnail {
+    width: 100%;
+}
+section.last-realty-list ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+section.last-realty-list .bgc-prm {
+    background-color: #3882CD !important;
+}
+section.last-realty-list .main-slider__more-btn {
+    float: right;
+    margin-top: 15px;
+}
+section.last-realty-list .main-slider__h2 {
+    display: inline-block;
+}
+section.last-realty-list .bgc-prm {
+    background-color: #3882CD !important;
+}

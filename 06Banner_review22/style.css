@@ -1,0 +1,61 @@
+section#review22{
+    padding: 50px 0;
+    /*background: #fafafa;*/
+}
+section#review22 .card {
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+section#review22 h2 {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+section#review22 .owl-carousel .owl-stage-outer {
+    margin-right: 1px !important;
+}
+section#review22 img {
+    padding: 15px 20px;
+    /*border-right: 1px dashed #cecece;*/
+    /*width: 100%;*/
+    width: 150px;
+    height: 150px;
+}
+section#review22 .lead {
+    font-size: 1em;
+    color: grey;
+}
+section#review22 .owl-nav {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -63px;
+    width: 100%;
+}
+section#review22 .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 30px;
+
+}
+section#review22 .owl-next {
+    right: 0;
+    top: 30px;
+    position: absolute;
+}
+section#review22 .owl-next,
+section#review22 .owl-prev {
+    color: #a8a8a8;
+    float: left;
+    font-size:32px;
+}
+section#review22 .owl-next:hover,
+section#review22 .owl-prev:hover {
+    font-size: 32px;
+    color: #616161;
+    /*top: -2px;*/
+}
+section#review22 .owl-next.disabled,
+section#review22 .owl-prev.disabled {
+    color: #999 !important;
+}

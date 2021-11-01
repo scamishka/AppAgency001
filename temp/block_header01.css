@@ -1,0 +1,267 @@
+
+header .fc-prm {
+    color: #3882CD !important;
+}
+header .header {
+    display: block;
+    height: 77px;
+    width: 100%;
+}
+header .header-right {
+    display: flex;
+    justify-content: right;
+}
+header .logo img {
+    height: 45px;
+}
+header .navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+header .header-left {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+section#menu-right .page_header {
+    min-height: 40px;
+    position: relative;
+    text-align: left;
+    /*background: url("../img/bg6.jpg") center center fixed; */
+    border-top: 5px solid #384045;
+    border-bottom: 5px solid #cccccc;
+}
+
+section#menu-right .page_header_wrap {
+    padding: 10px 0 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+section#menu-right ul.main-menu > li:hover {
+    border-bottom: 4px solid;
+    margin-bottom: -4px;
+}
+section#menu-right .menu_main > ul > li > a {
+    display: block;
+    padding: 9px 12px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section#menu-right .menu_main > ul > li ul li a.sf-with-ul:after {
+    content: "?";
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-weight: normal;
+    line-height: 0;
+}
+section#menu-right .menu_main > ul > li ul {
+    z-index: 300;
+    font-size: 13px;
+    display: none;
+    position: absolute;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-top: 5px solid;
+    list-style: none;
+    margin: 3px 0 0;
+    padding: 5px;
+    background: white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+section#menu-right .menu_main > ul > li:hover > a:after, .menu_main > ul > li.sfHover > a:after, .menu_main > ul > li.active > a:after {
+    color: white;
+}
+section#menu-right .menu_main > ul > li:hover a.sf-with-ul, .menu_main > ul > li.sfHover a.sf-with-ul {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -3px;
+    padding-bottom: 11px;
+}
+section#menu-right ul.main-menu .submenu {
+    border-top: 5px solid;
+}
+section#menu-right ul.main-menu li{
+    float: left;
+    position: relative;
+}
+section#menu-right ul.main-menu li > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 21px 10px 34px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+
+
+footer.contacts{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #373a3c;
+}
+footer.contacts a {
+    color: #71b00c;
+    text-decoration: none;
+}
+footer.contacts ul {
+    list-style: none;
+    padding: 0;
+    width: 380px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+footer.contacts .buy-order__catalog-btn {
+    font-size: 20px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block!important;
+    width: 320px;
+}
+
+footer.contacts .buy-order__else-text {
+    width: 377px;
+    /*font-style: italic;*/
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+footer.contacts ul>li:before {
+    content: "\2192";
+    /*font-family: icomoon;*/
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 12px;
+    margin-left: -39px;
+    margin-right: 20px;
+    color: #71b00c;
+}
+footer.contacts .bg-filter {
+    background: rgb(250, 250, 250);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+}
+footer.contacts h1{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 25px;
+    border: none;
+}
+footer.contacts .buy-order__text-block {
+    font-size: 20px;
+}
+footer.contacts .featured-box {
+    /*background: #F5F5F5;*/
+    /*background: -webkit-linear-gradient( top , #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;*/
+    /*background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border-bottom: 1px solid #DFDFDF;*/
+    /*border-left: 1px solid #ECECEC;*/
+    border-radius: 8px;
+    /*border-right: 1px solid #ECECEC;*/
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    max-height: 200px;
+    position: relative;
+    z-index: 1;
+}
+footer.contacts .featured-box .box-content {
+    /*border-radius: 8px;*/
+    /*border-top: 1px solid #CCC;*/
+    /*border-top-width: 4px;*/
+    /*padding: 30px 30px 10px 30px;*/
+    position: relative;
+    top: -1px;
+}
+footer.contacts .featured-box-primary .box-content {
+    border-top-color: #71b00c;
+}
+
+footer.contacts .featured-box h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer.contacts .featured-box .box-content label{
+    color: #777;
+}
+footer.contacts p {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+footer.contacts .slider-contact-form .featured-box {
+    text-align: left;
+}
+footer.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.24);
+}
+footer.contacts input.btn.btn-primary {
+    float: right;
+    margin-top: 25px;
+}
+footer.contacts .bgc-prm {
+    background-color: #71b00c !important;
+}
+footer.contacts .bgc-sec-hov:hover {
+    background-color: #71b00c !important;
+}
+footer.contacts .fc-white {
+    color: #fff !important;
+}
+@media (max-width:1200px) {
+    footer.contacts .woman_bg {
+        right: -59px;
+    }
+}
+@media (max-width: 980px){
+    footer.contacts .woman_bg {
+        right: 24px;
+        top: -17px;
+        z-index: 1;
+    }
+}
+@media (max-width: 768px){
+    footer.contacts .woman_bg {
+        display: none;
+    }
+}
+footer.contacts h2{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+footer.contacts ul.sale-order__list_dark-bg {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+footer.contacts .crm-webform-label {
+    display:none;
+}
+

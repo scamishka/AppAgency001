@@ -1,0 +1,80 @@
+
+section.sale-order {
+    background: #0e0e0e;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+section.sale-order p{
+    color: white;
+}
+section.sale-order h2{
+    margin: 0 0 10px 0;
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+}
+ul.sale-order__list_dark-bg {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+section.sale-order .featured-box {
+    background: #F5F5F5;
+    background: -webkit-linear-gradient( top , #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;
+    background: linear-gradient(to bottom, #FFF 1%, #fcfcfc 98%) repeat scroll 0 0 transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #ECECEC;
+    border-radius: 8px;
+    border-right: 1px solid #ECECEC;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    min-height: 100px;
+    position: relative;
+    z-index: 1;
+}
+section.sale-order .featured-box .box-content {
+    border-radius: 8px;
+    border-top: 1px solid #CCC;
+    border-top-width: 4px;
+    padding: 30px 30px 10px 30px;
+    position: relative;
+    top: -1px;
+}
+
+
+section.sale-order .featured-box h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+section.sale-order .featured-box .box-content label{
+    color: #777;
+}
+section.sale-order .box-content > p {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+section.sale-order .slider-contact-form .featured-box {
+    text-align: left;
+}
+section.sale-order {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.sale-order input.btn.btn-primary {
+    float: right;
+    margin-top: 25px;
+}
+section.sale-order .feature-box-info h4 {
+    color: white;
+}

@@ -1,0 +1,59 @@
+section.news h2{
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 25px;
+}
+section.news {
+    background: #e6f0f2;
+    border-top: 5px solid #f1f1f1;
+    padding: 50px 0;
+}
+section.news h4.heading-primary {
+    height: 55px;
+    overflow: hidden;
+}
+section.news .col-half-section.col-half-section-right {
+    float: none !important;
+}
+.recent-posts .date {
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+.recent-posts .date .day {
+    background: #F7F7F7;
+    color: #CCC;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 8px;
+}
+.recent-posts .date .day, article.post .post-date .day {
+    color: #395563;
+}
+section.section .recent-posts .date .day {
+    background: #FFF;
+}
+.recent-posts .date .month {
+    background: #CCC;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 0 10px 2px;
+}
+.recent-posts .date .month, article.post .post-date .month {
+    background-color: #395563;
+}
+.recent-posts h4 {
+    margin-bottom: 7px;
+}
+h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}

@@ -1,0 +1,106 @@
+section#advantages-rieltor25 h2{
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+section#advantages-rieltor25 hr {
+    margin: 10px 0;
+}
+section#advantages-rieltor25 .list.list-icons {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+section#advantages-rieltor25 ul.mortgage-section__list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+section#advantages-rieltor25 .row.min-padding {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+section#advantages-rieltor25 .row.min-padding [class*="col"]{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+section#advantages-rieltor25 .mortgage-form input[type="text"]{
+    padding: 8px 10px;
+    width: 100%;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+section#advantages-rieltor25 .mortgage-form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #777;
+}
+section#advantages-rieltor25 .mortgage-form button {
+    padding: 5px 10px;
+    background: #444;
+    border-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+section#advantages-rieltor25 .mortgage-section p {
+    color: #444;
+    line-height: 18px;
+    margin: 0 0 13px;
+}
+section#advantages-rieltor25 .mortgage-section span.form-caption {
+    margin-bottom: 13px;
+    display: inline-block;
+    font-weight: bold;
+}
+section#advantages-rieltor25 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section#advantages-rieltor25 img.img-responsive {
+    width: 100%;
+}
+@media (max-width:768px ) {
+    section#advantages-rieltor25 .img-thumbnail {
+        margin-bottom: 15px !important;
+    }
+}
+@media (max-width:544px ) {
+    section#advantages-rieltor25 .mortgage-form input[type="text"] {
+        margin-bottom: 15px;
+    }
+}
+section#advantages-rieltor25 i {
+    font-size: 3em;
+    color: #3882CD;
+}
+section#advantages-rieltor25 .card {
+    border:none;
+    background-color: rgba(0,0,0,0);
+}
+/*section#advantages-rieltor25 .card:after {*/
+/*    content: "\2192";*/
+/*    font-family: icomoon;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-variant: normal;*/
+/*    text-transform: none;*/
+/*    line-height: 1;*/
+/*    font-size: 48px;*/
+/*    position: absolute;*/
+/*    right: -30px;*/
+/*    color: #71b00c;*/
+/*}*/
+/*section#advantages-rieltor25 .card-deck .card:last-of-type:after {*/
+/*    content: "";*/
+/*}*/
+section#advantages-rieltor25 .card-footer {
+    background-color: rgba(0,0,0,0);
+}

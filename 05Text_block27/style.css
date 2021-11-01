@@ -1,0 +1,125 @@
+section#form-rieltor27 h2 {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+section#form-rieltor27 h4 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+section#form-rieltor27 hr {
+    margin: 10px 0;
+}
+section#form-rieltor27 .list.list-icons {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+section#form-rieltor27 ul.mortgage-section__list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+section#form-rieltor27 .list-group-item {
+    border: none;
+}
+section#form-rieltor27 .row.min-padding {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+section#form-rieltor27 .row.min-padding [class*="col"]{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+section#form-rieltor27 .mortgage-form input[type="text"]{
+    padding: 8px 10px;
+    width: 100%;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+section#form-rieltor27 .mortgage-form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #777;
+}
+section#form-rieltor27 .mortgage-form button {
+    padding: 5px 10px;
+    background: #444;
+    border-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+section#form-rieltor27 .mortgage-section p {
+    color: #444;
+    line-height: 18px;
+    margin: 0 0 13px;
+}
+section#form-rieltor27 .mortgage-section span.form-caption {
+    margin-bottom: 13px;
+    display: inline-block;
+    font-weight: bold;
+}
+section#form-rieltor27 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f5f5f8;
+}
+section#form-rieltor27 img.img-responsive {
+    width: 100%;
+}
+@media (max-width:768px ) {
+    section#form-rieltor27 .img-thumbnail {
+        margin-bottom: 15px !important;
+    }
+}
+@media (max-width:544px ) {
+    section#form-rieltor27 .mortgage-form input[type="text"] {
+        margin-bottom: 15px;
+    }
+}
+section#form-rieltor27 i {
+    font-size: 18px;
+    color: #3882CD;
+}
+section#form-rieltor27 .card {
+    border:none;
+    background-color: rgba(0,0,0,0);
+}
+section#form-rieltor27 .card:hover {
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.15);
+}
+/*section#form-rieltor27 .card:after {*/
+/*    content: "\2192";*/
+/*    font-family: icomoon;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-variant: normal;*/
+/*    text-transform: none;*/
+/*    line-height: 1;*/
+/*    font-size: 48px;*/
+/*    position: absolute;*/
+/*    right: -30px;*/
+/*    color: #71b00c;*/
+/*}*/
+/*section#form-rieltor27 .card-deck .card:last-of-type:after {*/
+/*    content: "";*/
+/*}*/
+section#form-rieltor27 .card-header {
+    color: #FFF;
+    background: #3882CD;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+section#form-rieltor27 .card-footer {
+    background-color: rgba(0,0,0,0);
+}

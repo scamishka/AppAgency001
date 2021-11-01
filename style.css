@@ -1,0 +1,42 @@
+
+body {
+    background-color: #e8e5e5;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #d6e5f385;
+
+}
+section #Application_102 #step1,
+section #Application_102 #step2,
+section #Application_102 #step3 {
+    display: none;
+}
+section #Application_102 .next-step {
+    display: block;
+}
+.container {
+    /*border: solid 1px grey;*/
+    /*padding: 30px;*/
+    /*margin-top: 30px;*/
+}
+
+footer {
+    margin-top:30px;
+    height: 50px;
+}
+footer .content {
+    display:flex;
+    justify-content:space-between
+}
+footer .logo img {
+    height:40px;
+}
+section #left-sidebar {
+    height: 100vh;
+}
+.left-sidebar {
+    height: 500px;
+    background-color: #1b1e21;
+}

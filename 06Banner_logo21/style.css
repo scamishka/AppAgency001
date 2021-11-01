@@ -1,0 +1,53 @@
+section#partners21{
+    padding: 50px 0;
+    background: #fafafa;
+}
+section#partners21 h2 {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+section#partners21 .owl-carousel .owl-stage-outer {
+    margin-right: 1px !important;
+}
+section#partners21 img {
+    padding: 15px 20px;
+    border-right: 1px dashed #cecece;
+    /*width: 100%;*/
+    width: auto;
+    height: 130px;
+}
+section#partners21 .owl-nav {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -63px;
+    width: 100%;
+}
+section#partners21 .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 30px;
+
+}
+section#partners21 .owl-next {
+    right: 0;
+    top: 30px;
+    position: absolute;
+}
+section#partners21 .owl-next,
+section#partners21 .owl-prev {
+    color: #a8a8a8;
+    float: left;
+    font-size:32px;
+}
+section#partners21 .owl-next:hover,
+section#partners21 .owl-prev:hover {
+    font-size: 32px;
+    color: #616161;
+    /*top: -2px;*/
+}
+section#partners21 .owl-next.disabled,
+section#partners21 .owl-prev.disabled {
+    color: #999 !important;
+}

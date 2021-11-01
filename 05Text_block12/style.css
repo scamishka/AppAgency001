@@ -1,0 +1,82 @@
+section.mortgage-section h2{
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 25px;
+    color: #6a9b1d;
+}
+section.mortgage-section hr {
+    margin: 10px 0;
+}
+section.mortgage-section .list.list-icons {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+section.mortgage-section ul.mortgage-section__list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+section.mortgage-section .row.min-padding {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+section.mortgage-section .row.min-padding [class*="col"]{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+section.mortgage-section .mortgage-form input[type="text"]{
+    padding: 8px 10px;
+    width: 100%;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+section.mortgage-section .mortgage-form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #777;
+}
+section.mortgage-section a.button {
+    background: linear-gradient(to bottom,#79b021 50%,rgba(106,155,29,1) 50%);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 10px 44px;
+    color: #fff;
+    font-weight: bold;
+}
+section.mortgage-section .mortgage-section p {
+    color: #444;
+    line-height: 18px;
+    margin: 0 0 13px;
+}
+section.mortgage-section .mortgage-section span.form-caption {
+    margin-bottom: 13px;
+    display: inline-block;
+    font-weight: bold;
+}
+section.mortgage-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.mortgage-section img.img-responsive {
+    width: 100%;
+}
+@media (max-width:768px ) {
+    section.mortgage-section .img-thumbnail {
+        margin-bottom: 15px !important;
+    }
+}
+@media (max-width:544px ) {
+    section.mortgage-section .mortgage-form input[type="text"] {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,170 @@
+section#text-block-ipoteka37 h2 {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 28px;
+}
+section#text-block-ipoteka37 h4 {
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+section#text-block-ipoteka37 hr {
+    margin: 10px 0;
+}
+section#text-block-ipoteka37 .list.list-icons {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+section#text-block-ipoteka37 ul.mortgage-section__list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+section#text-block-ipoteka37 .list-group-item {
+    background: #efefef;
+    border-top: 3px solid #ffffff;
+    padding: 20px 0;
+}
+section#text-block-ipoteka37 .row.min-padding {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+section#text-block-ipoteka37 .row.min-padding [class*="col"]{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+section#text-block-ipoteka37 .mortgage-form input[type="text"]{
+    padding: 8px 10px;
+    width: 100%;
+    margin-right: 5px;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+section#text-block-ipoteka37 .mortgage-form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #777;
+}
+section#text-block-ipoteka37 .mortgage-form button {
+    padding: 5px 10px;
+    background: #444;
+    border-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+section#text-block-ipoteka37 .mortgage-section p {
+    color: #444;
+    line-height: 18px;
+    margin: 0 0 13px;
+}
+section#text-block-ipoteka37 .mortgage-section span.form-caption {
+    margin-bottom: 13px;
+    display: inline-block;
+    font-weight: bold;
+}
+section#text-block-ipoteka37 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #fff;
+}
+section#text-block-ipoteka37 img.img-responsive {
+    width: 100%;
+}
+@media (max-width:768px ) {
+    section#text-block-ipoteka37 .img-thumbnail {
+        margin-bottom: 15px !important;
+    }
+}
+@media (max-width:544px ) {
+    section#text-block-ipoteka37 .mortgage-form input[type="text"] {
+        margin-bottom: 15px;
+    }
+}
+section#text-block-ipoteka37 i {
+    font-size: 48px;
+    color: #3882CD;
+}
+section#text-block-ipoteka37 .card {
+    border:none;
+    background-color: #efefef;
+}
+#text-block-ipoteka37 .card-body {
+    width: 100%;
+}
+section#text-block-ipoteka37 .card:hover {
+    /*box-shadow: 0 10px 30px 0 rgba(0,0,0,0.15);*/
+}
+/*section#text-block-ipoteka37 .card:after {*/
+/*    content: "\2192";*/
+/*    font-family: icomoon;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-variant: normal;*/
+/*    text-transform: none;*/
+/*    line-height: 1;*/
+/*    font-size: 48px;*/
+/*    position: absolute;*/
+/*    right: -30px;*/
+/*    color: #71b00c;*/
+/*}*/
+/*section#text-block-ipoteka37 .card-deck .card:last-of-type:after {*/
+/*    content: "";*/
+/*}*/
+section#text-block-ipoteka37 .card-header {
+    color: #FFF;
+    background: #3882CD;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    /*margin-bottom: 20px;*/
+    width:100%;
+    border: none;
+}
+section#text-block-ipoteka37 .card-footer {
+    background-color: rgba(0,0,0,0);
+}
+section#text-block-ipoteka37 .card-deck :first-child div {
+    background-color: #fff;
+}
+section#text-block-ipoteka37 .card-deck :first-child .card {
+    background: #fff;
+}
+#text-block-ipoteka37 .card-deck :first-child > .card {
+    padding:0;
+}
+#text-block-ipoteka37 .card:first-child li {
+    background: #fff;
+}
+#text-block-ipoteka37 span.info {
+    color: #3882cd;
+}
+#text-block-ipoteka37 span.minus {
+    color: #ff0000;
+}
+#text-block-ipoteka37 span.plus {
+    color:#1ece1e;
+}
+#text-block-ipoteka37 span.info:before {
+    content: "\f05a";
+    margin-right:10px;
+    font-size: 18px;
+    font-family: fontawesome !important;}
+#text-block-ipoteka37 span.minus:before {
+    content: "\f06a";
+    margin-right:10px;
+    font-size: 18px;
+    font-family: fontawesome !important;}
+#text-block-ipoteka37 span.plus:before {
+    content: "\f058";
+    margin-right:10px;
+    font-size: 18px;
+    font-family: fontawesome !important;}

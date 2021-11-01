@@ -1,0 +1,198 @@
+header .navbar {
+    padding: 0;
+}
+header#header-agency01 {
+    background-color: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+}
+header#header-agency01 .header {
+    display: block;
+    height: 77px;
+    width: 100%;
+}
+header#header-agency01 .header-left{
+    padding-top: 20px;
+    padding-left: 0;
+}
+header#header-agency01 .header-right {
+    padding-top: 17px;
+}
+header#header-agency01 .header-left {
+    vertical-align: middle;
+}
+header#header-agency01 .header-left .logo {
+    display: block;
+}
+header#header-agency01 .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.is-sticky header .header-right-bottom {
+    margin-top: 6px;
+}
+
+.is-sticky header {
+    z-index: 300;
+}
+/*header .header-left .logo img {*/
+/*transition: all ease 0.2s;*/
+/*max-width: 100%;*/
+/*width: auto;*/
+/*height: 60px;*/
+/*max-height: 100%;*/
+/*}*/
+
+header#header-agency01 .menu_main {
+    font-size: 17px;
+}
+header#header-agency01 .menu_main > ul {
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: -0.3em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+header#header-agency01 .menu_main > ul > li {
+    letter-spacing: normal;
+    margin-right: 2px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+header#header-agency01 .menu_main > ul > li > a {
+    font-weight: 700;
+    line-height: 20px;
+}
+header#header-agency01 .menu_main > ul > li > a.sf-with-ul {
+    padding-right: 18px;
+}
+header#header-agency01 .menu_main > ul > li ul ul {
+    top: 0;
+    margin-top: -9px;
+    margin-left: 0px;
+    left: 100%;
+}
+header#header-agency01 .menu_main > ul > li ul li {
+    position: relative;
+}
+header#header-agency01 .menu_main > ul > li ul li a {
+    display: block;
+    font-weight: 400;
+    padding: 8px;
+    line-height: 18px;
+    border-bottom: 1px solid #f2f2f2;
+    white-space: nowrap;
+    color: #777777;
+}
+header#header-agency01 .menu_main > ul > li ul li:last-child a {
+    border-bottom: transparent;
+}
+header#header-agency01 .menu_main > ul > li ul li:hover > a,
+header#header-agency01 .menu_main > ul > li ul li.active > a {
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+header#header-agency01 .header-left .logo img {
+    height: 100%;
+    width: auto;
+}
+header#header-agency01 .header-left span.photo {
+    /* border-radius: 532px; */
+    /* display: inline-block; */
+    /* border: 1px dashed #141618; */
+    /*width: 135px;*/
+    height: auto;
+    /* overflow: hidden; */
+    float: left;
+    height: 45px;
+}
+header#header-agency01 .fc-prm {
+    color: #3882CD !important;
+}
+/*menu_top*/
+header#header-agency01 ul.menu_top {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+header#header-agency01 ul.menu_top li a {
+    font-size: 17px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #282925;
+}
+header#header-agency01 ul.menu_top li a:hover {
+    text-decoration: none;
+}
+header#header-agency01 ul.menu_top li a i {
+    margin-right: 6px;
+}
+
+
+@media (max-width: 1200px) {
+    header#header-agency01 ul.main-menu li > a {
+        padding: 21px 7px 34px;
+    }
+}
+
+@media (max-width: 767px) {
+    header#header-agency01 .header-right {
+        padding-top: 12px;
+    }
+    header#header-agency01 .header-left {
+        padding-top: 10px;
+    }
+    header#header-agency01 .header {
+        height: 50px;
+    }
+    header#header-agency01 .header-left span.photo {
+        display: block;
+        float: left;
+        margin-right: 10px;
+    }
+    header#header-agency01 span.logo-text {
+        margin-left: 0;
+    }
+    header#header-agency01 .header-left,
+    header#header-agency01 .header-right{
+        display: block;
+    }
+    /*header .header-left span.photo {*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*}*/
+    header#header-agency01 a.logo {
+        font-size: 20px;
+    }
+    header#header-agency01 button.btn-close {
+        display: block;
+    }
+    header#header-agency01 .pagenav ul li a {
+        border-radius: 3px;
+        line-height: 2.1em;
+        min-width: 1.5em;
+    }
+    header#header-agency01 span.logo-text {
+        line-height: 21px;
+        height: 54px;
+        padding-left: 0;
+    }
+    header#header-agency01 .header-left span.photo {
+        float: none;
+    }
+}
+@media (max-width: 565px) {
+    header#header-agency01 .header-left .logo img {
+        width: auto !important;
+        max-height: 50px !important;
+    }
+}
+@media (max-width: 380px) {
+    header#header-agency01 ul.menu_top li {
+        display: block;
+    }
+}

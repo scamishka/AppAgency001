@@ -1,0 +1,140 @@
+section.realtors ul.team-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section.realtors ul.team-list .team-item {
+    margin-bottom: 35px;
+}
+section.realtors .thumb-info {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    max-width: 100%;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+section.realtors .mb-xlg {
+    margin-bottom: 30px !important;
+}
+section.realtors .thumb-info .thumb-info-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    border-radius: 4px;
+    margin: 4px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+section.realtors .thumb-info img {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+}
+
+section.realtors .thumb-info .thumb-info-title {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: rgba(23, 23, 23, 0.8);
+    bottom: 10%;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -1px;
+    padding: 9px 11px 9px;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    z-index: 2;
+    max-width: 90%;
+}
+section.realtors .thumb-info .thumb-info-type {
+    background-color: #CCC;
+    border-radius: 2px;
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 8px -2px -15px -2px;
+    padding: 2px 9px;
+    text-transform: none;
+    left: 10px;
+    position: absolute;
+    bottom: -1px;
+    z-index: 2;
+}
+section.realtors .thumb-info .thumb-info-title {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: rgba(23, 23, 23, 0.8);
+    bottom: 10%;
+    color: #FFF;
+    font-size: 14px;
+    right: 0;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -1px;
+    padding: 9px 11px 9px;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    z-index: 2;
+    max-width: 90%;
+}
+section.realtors .thumb-info-caption {
+    padding: 10px 0;
+}
+section.realtors .thumb-info-caption .thumb-info-caption-text, .thumb-info-caption p {
+    font-size: 0.9em;
+    line-height: 20px;
+    margin: 0 0 8px;
+    padding: 10px;
+    height: 40px;
+    overflow: hidden;
+    display: block;
+}
+section.realtors .thumb-info:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+section.realtors .thumb-info:hover .thumb-info-title {
+    background: #000;
+}
+section.realtors .bgc-prm {
+    background-color: #3882CD !important;
+}
+section.realtors .main-slider__more-btn {
+    float: right;
+    margin-top: 15px;
+}
+section.realtors .main-slider__h2 {
+    display: inline-block;
+}
+
+section.realtors h2 {
+
+    margin-bottom: 20px;
+}

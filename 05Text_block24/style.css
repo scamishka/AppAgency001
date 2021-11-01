@@ -1,0 +1,83 @@
+section#about-rieltor24 h2{
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    /*font-size: 25px;*/
+}
+section#about-rieltor24 hr {
+    margin: 10px 0;
+}
+section#about-rieltor24 .img-thumbnail {
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+section#about-rieltor24 .list.list-icons {
+list-style: none;
+padding-left: 0;
+padding-right: 0;
+}
+section#about-rieltor24 ul.mortgage-section__list {
+margin-top: 10px;
+padding-left: 20px;
+}
+section#about-rieltor24 .row.min-padding {
+margin-left: -5px;
+margin-right: -5px;
+}
+section#about-rieltor24 .row.min-padding [class*="col"]{
+padding-left: 5px !important;
+padding-right: 5px !important;
+}
+section#about-rieltor24 .mortgage-form input[type="text"]{
+padding: 8px 10px;
+width: 100%;
+margin-right: 5px;
+font-size: 0.9rem;
+line-height: 1.25;
+color: #55595c;
+background-color: #fff;
+box-sizing: border-box;
+background-image: none;
+background-clip: padding-box;
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 0.25rem;
+}
+
+section#about-rieltor24 .mortgage-form label {
+display: inline-block;
+margin-bottom: .5rem;
+color: #777;
+}
+section#about-rieltor24 .mortgage-form button {
+padding: 5px 10px;
+background: #444;
+border-color: #444;
+color: #fff;
+font-weight: bold;
+}
+section#about-rieltor24 .mortgage-section p {
+color: #444;
+line-height: 18px;
+margin: 0 0 13px;
+}
+section#about-rieltor24 .mortgage-section span.form-caption {
+margin-bottom: 13px;
+display: inline-block;
+font-weight: bold;
+}
+section#about-rieltor24 {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+section#about-rieltor24 img.img-responsive {
+width: 100%;
+}
+@media (max-width:768px ) {
+section#about-rieltor24 .img-thumbnail {
+    margin-bottom: 15px !important;
+}
+}
+@media (max-width:544px ) {
+section#about-rieltor24 .mortgage-form input[type="text"] {
+    margin-bottom: 15px;
+}
+}
